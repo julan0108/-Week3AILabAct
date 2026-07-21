@@ -1,0 +1,10 @@
+1. If the code compares the input directly, iba ang "Yes" sa "yes" at iba rin ang "Active" sa "active",
+kaya baka hindi magwowork properly yung program.
+To prevent this, use the .lower() method:
+
+2.Sa rules, kapag may overdue books ang isang student, automatic hindi siya pwedeng mag-borrow kahit ano pa ang status niya.
+Kaya dahil dito, chine-check muna ng program kung may overdue books bago ang lahat:
+
+3.Hindi naman valid na mag request kung magba-borrow ka ng 0 books kasi wala naman talagang hihiramin.
+kaya dapat may warning message na lalabas kapag ginawa nya yan kagaya ng:
+"You must borrow at least 1 book."
